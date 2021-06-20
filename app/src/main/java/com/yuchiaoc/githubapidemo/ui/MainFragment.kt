@@ -1,4 +1,4 @@
-package com.yuchiaoc.githubapidemo.ui.main
+package com.yuchiaoc.githubapidemo.ui
 
 import android.app.Activity
 import androidx.lifecycle.ViewModelProvider
@@ -13,9 +13,10 @@ import android.widget.EditText
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
-import com.yitianyitiandan.githubsearch.utils.CommonTextWatcher
-import com.yuchiaoc.githubapidemo.UserListAdapter
+import com.yuchiaoc.githubapidemo.ui.adapter.UserListAdapter
+import com.yuchiaoc.githubapidemo.utils.CommonTextWatcher
 import com.yuchiaoc.githubapidemo.databinding.MainFragmentBinding
+import com.yuchiaoc.githubapidemo.viewmodel.MainViewModel
 
 class MainFragment : Fragment() {
     companion object {
@@ -54,7 +55,6 @@ class MainFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
-        // TODO: Use the ViewModel
 
     }
 
@@ -78,7 +78,6 @@ class MainFragment : Fragment() {
                         binding.noResult.visibility = View.VISIBLE
                         adapter.submitList(null)
                         editText.setText("")
-//                        Snackbar.make(binding.main, "Please Retry.", Snackbar.LENGTH_SHORT).show()
                     }
 
                 })

@@ -1,11 +1,8 @@
-package com.yuchiaoc.githubapidemo
+package com.yuchiaoc.githubapidemo.ui
 
-import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.view.inputmethod.InputMethodManager
-import com.yuchiaoc.githubapidemo.ui.main.MainFragment
+import com.yuchiaoc.githubapidemo.R
 
 class MainActivity : AppCompatActivity() {
 

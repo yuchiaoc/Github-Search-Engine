@@ -1,4 +1,4 @@
-package com.yitianyitiandan.githubsearch.utils
+package com.yuchiaoc.githubapidemo.utils
 
 import android.text.Editable
 import android.text.TextWatcher

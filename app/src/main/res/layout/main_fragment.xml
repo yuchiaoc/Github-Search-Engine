@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_green"
-    tools:context=".ui.main.MainFragment">
+    tools:context=".ui.MainFragment">
 
     <EditText
         android:id="@+id/inputText"
@@ -21,8 +21,8 @@
         app:layout_constraintEnd_toStartOf="@+id/search"
         android:hint="@string/search_hint"
         android:imeOptions="actionSearch"
-        android:inputType="textNoSuggestions"
-        tools:text="tom" />
+        android:inputType="textPersonName"
+        android:drawableStart="@android:drawable/ic_menu_search"/>
 
     <Button
         android:id="@+id/search"

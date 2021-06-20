@@ -1,13 +1,13 @@
-package com.yuchiaoc.githubapidemo
+package com.yuchiaoc.githubapidemo.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.yuchiaoc.githubapidemo.R
 import com.yuchiaoc.githubapidemo.model.User
 import com.yuchiaoc.githubapidemo.model.UserDiffUtils
 

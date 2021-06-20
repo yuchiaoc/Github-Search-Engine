@@ -1,4 +1,4 @@
-package com.yuchiaoc.githubapidemo.ui.main
+package com.yuchiaoc.githubapidemo.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
