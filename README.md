@@ -5,5 +5,5 @@ To search user on Github
 
 * a search bar
 * including user’s avatar and name
-* Using Paging + RecyclerView for showing results
+* Using Paging2 + RecyclerView for showing results
 * Kotlin/MVVM practice
